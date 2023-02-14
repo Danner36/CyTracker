@@ -26,7 +26,7 @@ GPS::GPS()
 void GPS::manager()
 {
     
-    // Forces the radio to wait at least a second for an incoming packet.
+    // Forces the payload to wait 5 seconds between GPS reads.
     if(millis() - gps_block > 5000)
     {
         // Reset timer.
@@ -87,7 +87,7 @@ bool GPS::fixation_monitor()
         // GPS fix has been aquired.
         fix_status = true;
     }
-    // Checks the correctness of the gps data. (Worthless if less than 5)
+    // Checks the correctness of the gps data. (Worthless if the device can only see 5 or less satellites)
     if(gps.satellites.value() <  5)
     {
         // If the # of satellites drops to zero. GPS fix has been lost.

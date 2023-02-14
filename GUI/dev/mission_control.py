@@ -588,8 +588,8 @@ class MC_Tab():
 		Updates the visual indiciator to tell the user the status of the balloon launch system.
 		Prelaunch = User has yet to give the launch signal.
 		Standby = User has pressed the "release" button. Release signal is now propogating through
-		out the network.
-		Release Confirmed = Auto launch microcontroller has acknowledged release signal.
+		the network.
+		Release Confirmed = Platform microcontroller has acknowledged release signal.
 		@param self - Instance of the class.
 		"""
 
