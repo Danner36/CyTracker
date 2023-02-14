@@ -1,7 +1,9 @@
 # CyTracker
 
 Firmware = C++ files that load onto the aurdino microcontrollers.
+
 Flight_Data = Radio data collected from previous flights.
+
 GUI = Python Graphical User Interface (GUI) to run on mission control & recovery computers.
 
 ## GLWT(Good Luck With That) Public License
